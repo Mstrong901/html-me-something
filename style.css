@@ -1,0 +1,137 @@
+main {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 48;
+    text-align: center;
+    font-family: 'Germania One';
+    padding: 5%;
+    padding-top: 7%;
+}
+
+h2 {
+    clear: both;
+    font-family: 'Yatra One', cursive;
+}
+
+h3 {
+    color: white;
+    font-family: 'Yatra One', cursive;
+    font-size: 16px;
+}
+
+#Gryf {
+    border: 15px groove red;
+}
+
+#Huff {
+    border: 15px groove yellow;
+}
+
+#Rave {
+    border: 15px groove blue;
+}
+
+#Slyt {
+    border: 15px groove green;
+}
+
+
+p {
+    font-weight: 400;
+    font-family: 'Josefin Sans';
+    font-size: 25;
+    color: antiquewhite;
+    text-shadow: 1px; 
+}
+
+.house_picture {
+    width: 50%;
+    padding: 5%;
+    float: left
+}
+
+.bio {
+    width: 50%;
+    padding: 5%;
+    float: right;
+}
+
+footer{
+    clear: both;
+    color: lightslategray
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  li a:hover {
+    background-color: #111;
+}
+  
+.active {
+    background-color: red;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.flex_container::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.G_Title {
+    font-size: 60;
+    text-align: center;
+    color: red;
+}
+
+.H_Title {
+    font-size: 60;
+    text-align: center;
+    color:yellow;
+}
+
+.R_Title {
+    font-size: 60;
+    text-align: center;
+    color: blue
+}
+
+.S_Title {
+    font-size: 60;
+    text-align: center;
+    color: green;
+}
+
+body {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url("https://i.ytimg.com/vi/UIcd_lz_R5M/maxresdefault.jpg");
+    background-attachment: scroll;
+}
