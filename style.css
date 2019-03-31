@@ -140,7 +140,15 @@ body {
 
 
 @media only screen and (max-device-width: 480px) {
-    body {
+    main {
+        max-width: 480px;
+    }
+    .house_picture {
+        clear: both;
+        max-width: 480px;
+    }
+    .bio {
+        clear: both;
         max-width: 480px;
     }
 }
